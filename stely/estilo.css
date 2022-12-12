@@ -35,7 +35,7 @@ a.external::after {
     content: '\00A0\1F517';
 }
 
-header{
+header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
     min-height: 150px;
     text-align: center;
