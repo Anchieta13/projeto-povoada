@@ -99,6 +99,7 @@ main h1 {
     color: var(--cor5);
     font-family: var(--fonte-andriod);
     font-weight: normal;
+    text-indent: 5px;
 }
 
 main  h2 {
@@ -115,6 +116,7 @@ p {
     text-align: justify;
     text-indent: 25px;
     font-size: 1em;
+    text-indent: 5px;
     line-height: 2em;
 }
 
@@ -148,56 +150,11 @@ main img.pequena {
     margin: auto;
 }
 
-div.video {
-    /*background-color: var(--cor4);*/
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
-    padding-bottom: 57%;
-
-    position: relative;
-}
-
-div.video > iframe {
-   position: absolute;
-   top: 5%;
-   left: 5%;
-   width: 90%;
-   height: 90%;
-}
-
 aside {
     background-color: var(--cor1);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.61);
-}
-
-aside > h3 {
-    background-color: var(--cor4);
-    color: white;
-    padding: 10px;
-    margin: -10px -10px 0px -10px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-aside > ul {
-    list-style-type: '\2714\00A0'; /*Isso não é compatível com todos os navegadores...*/
-    list-style-position: inside;
-    columns: 2;
-}
-
-aside a {
-    color: var(--cor5);
-    font-weight: bold;
-    text-decoration: none;
-}
-
-aside a:hover {
-    text-decoration: underline;
-    background-color: var(--cor4);
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
 }
 
 footer { 
@@ -220,4 +177,8 @@ footer a:hover {
     color: var(--cor5);
     padding: 5px;
     border-radius: 5px;
+}
+
+footer p {
+    text-align: center;
 }
